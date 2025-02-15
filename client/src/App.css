@@ -1,0 +1,80 @@
+/* Paleta de Cores */
+/* 8963BA -> Amethyst */
+/* 282C34 -> Gunmetal */
+/* fcf7f8 -> Snow */
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-size: 1rem;
+}
+
+.outside {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  background: #282c34;
+}
+
+.inside {
+  display: flex;
+  flex-flow: column wrap;
+  gap: 20px;
+}
+
+h2 {
+  color: #fcf7f8;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+form {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  gap: 10px;
+}
+
+form label {
+  padding: 10px;
+  font-size: 1.5rem;
+  border: 1px solid #8963ba;
+  border-radius: 5px;
+  color: #fcf7f8;
+}
+
+form label:hover {
+  cursor: pointer;
+}
+
+button[type="submit"],
+button[type="reset"] {
+  border: 1px solid #8963ba;
+  border-radius: 5px;
+  background: #282c34;
+  color: #fcf7f8;
+  padding: 10px;
+  width: 50%;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.formButtons {
+  display: flex;
+  gap: 20px;
+}
+
+.qrCode {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column wrap;
+  gap: 20px;
+}
